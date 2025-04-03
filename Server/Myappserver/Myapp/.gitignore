@@ -1,0 +1,64 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.config
+*.manifest
+*.application
+*.msi
+*.xap
+*.pubxml
+
+
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ide/
+
+# IDE/Editor files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Local development
+.env
+appsettings.Development.json
+launchSettings.json
+
+# Azure/Cloud
+local.settings.json
+*.azurePubxml
+*.pubxml.user
+
+# ReSharper
+_ReSharper.*
+*.DotSettings.user
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Docker
+docker-compose.override.yml
